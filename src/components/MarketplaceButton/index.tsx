@@ -3,11 +3,9 @@ import React from "react";
 
 const MarketplaceButton = (props: { href: string; src: string; }) => {
   return (
-    <div className="w-50">
-      <a href={props.href}>
-        <Image className="img-fluid w-50 h-auto" src={props.src}/>
+      <a className="w-50" href={props.href}>
+        <Image className="img-fluid w-100" src={props.src}/>
       </a>
-    </div>
   )
 }
 

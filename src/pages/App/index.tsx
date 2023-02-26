@@ -58,7 +58,7 @@ function Index() {
       </div>
       <Divider/>
       <div className="d-flex flex-row-reverse">
-        <div className="p-3 d-flex flex-column justify-content-center w-50">
+        <div className="p-3">
           <h2>Simple and affordable Pricing</h2>
           <p>With our flat rate pricing you never have to worry about being up-sold at the shop again.</p>
           <div className="d-flex flex-row justify-content-center align-items-center">
