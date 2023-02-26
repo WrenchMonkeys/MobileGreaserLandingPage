@@ -18,7 +18,7 @@ function Index() {
           <GooglePlayButton/>
         </div>
         <div className="w-50 align-middle d-flex align-items-center">
-          <Image className="mx-auto d-block" src="https://via.placeholder.com/300"/>
+          <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
       <Divider/>
@@ -28,7 +28,7 @@ function Index() {
           <p>Join our clients to save time and money on your vehicle maintenance</p>
         </div>
         <div className="p-3 d-flex">
-          <Image className="mx-auto d-block" src="https://via.placeholder.com/1200x300"/>
+          <Image className="mx-auto img-fluid w-75 h-auto" src="https://via.placeholder.com/1200x300"/>
         </div>
       </div>
       <Divider/>
@@ -38,7 +38,7 @@ function Index() {
           <p>With every service request, we will include a free 50 point inspection report.</p>
         </div>
         <div className="p-3 d-flex w-50">
-          <Image className="mx-auto d-block" src="https://via.placeholder.com/300"/>
+          <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
       <Divider/>
@@ -48,7 +48,7 @@ function Index() {
           <p>With our 5000 mile warranty on all services we offer, you never have to worry about improper installation or faulty parts again</p>
         </div>
         <div className="p-3 d-flex w-50">
-          <Image className="mx-auto d-block" src="https://via.placeholder.com/300"/>
+          <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
       <Divider/>
@@ -59,11 +59,11 @@ function Index() {
           <GooglePlayButton/>
         </div>
         <div className="p-3 d-flex w-50">
-          <Image className="mx-auto d-block" src="https://via.placeholder.com/300"/>
+          <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
       <Divider/>
-      <footer className="p-4 d-flex flex-row justify-content-lg-around">
+      <footer className="p-3 d-flex flex-row justify-content-lg-around">
         <section className="d-flex flex-column justify-content-lg-between">
           <h5 className="fw-bold">Mobile Greaser</h5>
           <p>Copyright © 2023 Mobile Greaser, Inc. All rights reserved</p>
@@ -74,12 +74,11 @@ function Index() {
           <p><a className="text-secondary" href="mailto:egomez@mobilegreaser.com">team@mobilegreaser.com</a></p>
         </section>
         <section className="d-flex flex-column justify-content-lg-between">
-          <h5 className="fw-bold">Company</h5>
+          <h5 className="fw-bold">Legal</h5>
           <p><a className="text-secondary" href="https://google.com">Terms of Service</a></p>
           <p><a className="text-secondary" href="https://google.com">Privacy Policy</a></p>
         </section>
       </footer>
-      <Divider/>
     </Container>
   );
 }
