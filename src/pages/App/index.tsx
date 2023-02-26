@@ -8,7 +8,7 @@ import GooglePlayButton from "../../components/GooglePlayButton";
 
 function Index() {
   return (
-    <Container>
+    <Container className="p-sm-0">
       {/* TODO: refactor each hero into an HOC component */}
       <Divider/>
       <div className="p-3 d-flex flex-row">
@@ -63,7 +63,7 @@ function Index() {
         </div>
       </div>
       <Divider/>
-      <footer className="p-3 d-flex flex-lg-row flex-md-column flex-sm-column justify-content-lg-around">
+      <footer className="p-3 d-flex flex-lg-row flex-column justify-content-lg-around">
         <section className="d-flex flex-column justify-content-lg-between">
           <h5 className="fw-bold">Mobile Greaser</h5>
           <p>Copyright © 2023 Mobile Greaser, Inc. All rights reserved</p>
