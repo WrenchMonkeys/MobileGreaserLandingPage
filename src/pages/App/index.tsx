@@ -1,21 +1,26 @@
 import Container from 'react-bootstrap/Container';
 import Image from "react-bootstrap/Image";
 
+import googleBadge from "../../static/images/google-play-badge.png";
+import appleBadge from "../../static/images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg";
+
 import React from 'react';
 
 import Divider from "../../components/Divider";
-import GooglePlayButton from "../../components/GooglePlayButton";
+import MarketplaceButton from "../../components/MarketplaceButton";
 
 function Index() {
   return (
     <Container>
       {/* TODO: refactor each hero into an HOC component */}
-      <Divider/>
       <div className="d-flex flex-row">
         <div className="p-3 d-flex flex-column w-50">
           <h1>On Demand Mobile Mechanics</h1>
           <p className="text-secondary">Mobile Greaser helps you service your vehicle any time, any location, at your convenience.</p>
-          <GooglePlayButton/>
+          <div className="d-flex flex-row justify-content-center align-items-center">
+            <MarketplaceButton href="https://play.google.com/store/apps?gl=us" src={appleBadge}/>
+            <MarketplaceButton href="https://play.google.com/store/apps?gl=us" src={googleBadge}/>
+          </div>
         </div>
         <div className="p-3 d-flex align-middle d-flex align-items-center w-50">
           <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
@@ -56,7 +61,10 @@ function Index() {
         <div className="p-3 d-flex flex-column justify-content-center w-50">
           <h2>Simple and affordable Pricing</h2>
           <p>With our flat rate pricing you never have to worry about being up-sold at the shop again.</p>
-          <GooglePlayButton/>
+          <div className="d-flex flex-row justify-content-center align-items-center">
+            <MarketplaceButton href="https://play.google.com/store/apps?gl=us" src={appleBadge}/>
+            <MarketplaceButton href="https://play.google.com/store/apps?gl=us" src={googleBadge}/>
+          </div>
         </div>
         <div className="p-3 d-flex align-middle d-flex align-items-center w-50">
           <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
