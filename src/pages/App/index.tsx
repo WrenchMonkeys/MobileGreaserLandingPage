@@ -37,7 +37,7 @@ function Index() {
           <h2>Get a complete service report</h2>
           <p>With every service request, we will include a free 50 point inspection report.</p>
         </div>
-        <div className="p-3 d-flex w-50">
+        <div className="p-3 d-flex align-middle d-flex align-items-center w-50">
           <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
@@ -47,7 +47,7 @@ function Index() {
           <h2>Drive with piece of mind</h2>
           <p>With our 5000 mile warranty on all services we offer, you never have to worry about improper installation or faulty parts again</p>
         </div>
-        <div className="p-3 d-flex w-50">
+        <div className="p-3 d-flex align-middle d-flex align-items-center w-50">
           <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
@@ -58,7 +58,7 @@ function Index() {
           <p>With our flat rate pricing you never have to worry about being up-sold at the shop again.</p>
           <GooglePlayButton/>
         </div>
-        <div className="p-3 d-flex w-50">
+        <div className="p-3 d-flex align-middle d-flex align-items-center w-50">
           <Image className="mx-auto img-fluid" src="https://via.placeholder.com/300"/>
         </div>
       </div>
