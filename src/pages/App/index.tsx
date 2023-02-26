@@ -71,7 +71,7 @@ function Index() {
         </div>
       </div>
       <Divider/>
-      <footer className="d-flex flex-lg-row flex-column justify-content-lg-around">
+      <footer className="py-3 d-flex flex-lg-row flex-column justify-content-lg-around">
         <section className="p-2 d-flex flex-column justify-content-lg-between">
           <h5 className="fw-bold">Mobile Greaser</h5>
           <p>Copyright © 2023 Mobile Greaser, Inc. All rights reserved</p>
